@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Temperaturas</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Conversor de Temperaturas</h1>
+    </header>
+
+    <div id="formulario">
+
+        <form onsubmit="return false">
+            <div id="print">
+                <field class="text">
+                <input type="number" id="tempc" name="tempc" onkeyup="C()">
+                <label>°C</label>
+                </field>
+                <field class="text">
+                    <input type="number" id="tempf" name="tempf" onkeyup="F()">
+                    <label>°F</label>
+                </field>
+                <field class="text">
+                    <input type="number" id="tempk" name="tempk" onkeyup="K()">
+                    <label>°K</label>
+                </field>
+                <field class="text">
+                    <input type="number" id="tempr" name="tempr" onkeyup="R()">
+                    <label>°R</label>
+                </field>
+            </div>
+        </form>
+        <div id="tam">
+            <img id="imagem" src="https://imgur.com/b2iVGyh.png">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

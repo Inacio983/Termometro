@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://uploads.spiritfanfiction.com/historias/capas/202205/fogo-e-gelo-23901014-180520222054.jpg");
+	background-repeat: no-repeat;
+    background-size:100%;
+    background-size: cover;
+}
+
+header{
+	display: table;
+	width: 100vw;
+	height: 10vh;
+	border: 1px solid #000;
+	background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 100%);
+	position: top;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+h1{
+	display: table-cell;
+    vertical-align: middle;
+}
+
+form{
+	display:flex;
+    width: 50%;
+
+}
+
+#formulario{
+	padding: 10px 10px 10px 10px;
+	min-height: 300px;
+	max-height: 500px;
+	min-width: 400px;
+	height: 50%;
+	width: 40%;
+	background-color: rgb(112, 139, 139);
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #000;
+	border-radius: 20px;
+}
+
+field{
+	display: flex;
+	height: 100%;
+	margin-top: 40%;
+	margin-bottom: 30%;
+	margin-left: 10px;
+}
+
+/* field.text{
+	display: grid;
+	gap: 4px;
+}
+field.text label{
+	font-size: 16px;
+}
+
+field.text input{
+	padding: 5px 10px;
+} */
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+input{
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+label{
+	display:flex;
+	flex-direction:column;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+#print{
+	display:flex;
+	flex-flow: column;
+	flex-direction:column;
+	width: 50px;
+}
+
+#tam{
+	width: 50%;
+	margin-left: 10px;
+	display: flex;
+}
+
+#imagem{
+	height: 90%;
+	margin: auto;
+	align-self: center;
+}
